@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="not_funny_ware" />
+        <module name="not_funny_coupon" />
+        <module name="not_funnt_gateway" />
+        <module name="not_funny_member" />
+        <module name="not_funny_product" />
+        <module name="not_funny_order" />
+        <module name="not_funny_third_party" />
+        <module name="not_funny_common" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
