@@ -10,33 +10,33 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import priv.hhh.mall.product.entity.UmsRoleEntity;
-import priv.hhh.mall.product.service.UmsRoleService;
+import priv.hhh.mall.product.entity.MemberLoginLogEntity;
+import priv.hhh.mall.product.service.MemberLoginLogService;
 import priv.hhh.common.utils.PageUtils;
 import priv.hhh.common.utils.R;
 
 
 
 /**
- * 后台用户角色表
+ * 会员登录记录
  *
  * @author electreep
  * @email ${email}
- * @date 2021-04-17 23:09:29
+ * @date 2021-04-18 20:53:01
  */
 @RestController
-@RequestMapping("product/umsrole")
-public class UmsRoleController {
+@RequestMapping("product/memberloginlog")
+public class MemberLoginLogController {
     @Autowired
-    private UmsRoleService umsRoleService;
+    private MemberLoginLogService memberLoginLogService;
 
     /**
      * 列表
      */
     @RequestMapping("/list")
-    //@RequiresPermissions("product:umsrole:list")
+    //@RequiresPermissions("product:memberloginlog:list")
     public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = umsRoleService.queryPage(params);
+        PageUtils page = memberLoginLogService.queryPage(params);
 
         return R.ok().put("page", page);
     }
@@ -46,20 +46,20 @@ public class UmsRoleController {
      * 信息
      */
     @RequestMapping("/info/{id}")
-    //@RequiresPermissions("product:umsrole:info")
+    //@RequiresPermissions("product:memberloginlog:info")
     public R info(@PathVariable("id") Long id){
-		UmsRoleEntity umsRole = umsRoleService.getById(id);
+		MemberLoginLogEntity memberLoginLog = memberLoginLogService.getById(id);
 
-        return R.ok().put("umsRole", umsRole);
+        return R.ok().put("memberLoginLog", memberLoginLog);
     }
 
     /**
      * 保存
      */
     @RequestMapping("/save")
-    //@RequiresPermissions("product:umsrole:save")
-    public R save(@RequestBody UmsRoleEntity umsRole){
-		umsRoleService.save(umsRole);
+    //@RequiresPermissions("product:memberloginlog:save")
+    public R save(@RequestBody MemberLoginLogEntity memberLoginLog){
+		memberLoginLogService.save(memberLoginLog);
 
         return R.ok();
     }
@@ -68,9 +68,9 @@ public class UmsRoleController {
      * 修改
      */
     @RequestMapping("/update")
-    //@RequiresPermissions("product:umsrole:update")
-    public R update(@RequestBody UmsRoleEntity umsRole){
-		umsRoleService.updateById(umsRole);
+    //@RequiresPermissions("product:memberloginlog:update")
+    public R update(@RequestBody MemberLoginLogEntity memberLoginLog){
+		memberLoginLogService.updateById(memberLoginLog);
 
         return R.ok();
     }
@@ -79,9 +79,9 @@ public class UmsRoleController {
      * 删除
      */
     @RequestMapping("/delete")
-    //@RequiresPermissions("product:umsrole:delete")
+    //@RequiresPermissions("product:memberloginlog:delete")
     public R delete(@RequestBody Long[] ids){
-		umsRoleService.removeByIds(Arrays.asList(ids));
+		memberLoginLogService.removeByIds(Arrays.asList(ids));
 
         return R.ok();
     }
