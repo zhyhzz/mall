@@ -6,10 +6,10 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com.atguigu.gulimall.coupon.entity.SpuBoundsEntity;
-import com.atguigu.gulimall.coupon.service.SpuBoundsService;
-import com.atguigu.common.utils.PageUtils;
-import com.atguigu.common.utils.R;
+import priv.hhh.mall.coupon.entity.SpuBoundsEntity;
+import priv.hhh.mall.coupon.service.SpuBoundsService;
+import priv.hhh.common.utils.PageUtils;
+import priv.hhh.common.utils.R;
 
 
 

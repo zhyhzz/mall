@@ -9,12 +9,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.atguigu.gulimall.coupon.entity.HomeSubjectEntity;
-import com.atguigu.gulimall.coupon.service.HomeSubjectService;
-import com.atguigu.common.utils.PageUtils;
-import com.atguigu.common.utils.R;
-
+import priv.hhh.common.utils.PageUtils;
+import priv.hhh.common.utils.R;
+import priv.hhh.mall.coupon.entity.HomeSubjectEntity;
+import priv.hhh.mall.coupon.service.HomeSubjectService;
 
 
 /**

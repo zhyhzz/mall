@@ -1,6 +1,6 @@
 package priv.hhh.mall.coupon.dao;
 
-import com.atguigu.gulimall.coupon.entity.SeckillSkuRelationEntity;
+import priv.hhh.mall.coupon.entity.SeckillSkuRelationEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

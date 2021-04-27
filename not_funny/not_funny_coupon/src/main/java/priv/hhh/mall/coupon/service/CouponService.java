@@ -1,8 +1,8 @@
 package priv.hhh.mall.coupon.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.atguigu.common.utils.PageUtils;
-import com.atguigu.gulimall.coupon.entity.CouponEntity;
+import priv.hhh.common.utils.PageUtils;
+import priv.hhh.mall.coupon.entity.CouponEntity;
 
 import java.util.Map;
 

@@ -3,14 +3,14 @@ package priv.hhh.mall.coupon.controller;
 import java.util.Arrays;
 import java.util.Map;
 
-import com.atguigu.common.to.SkuReductionTo;
+import priv.hhh.common.to.SkuReductionTo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com.atguigu.gulimall.coupon.entity.SkuFullReductionEntity;
-import com.atguigu.gulimall.coupon.service.SkuFullReductionService;
-import com.atguigu.common.utils.PageUtils;
-import com.atguigu.common.utils.R;
+import priv.hhh.mall.coupon.entity.SkuFullReductionEntity;
+import priv.hhh.mall.coupon.service.SkuFullReductionService;
+import priv.hhh.common.utils.PageUtils;
+import priv.hhh.common.utils.R;
 
 
 

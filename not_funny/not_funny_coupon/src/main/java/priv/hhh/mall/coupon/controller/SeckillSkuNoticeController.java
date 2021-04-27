@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.atguigu.gulimall.coupon.entity.SeckillSkuNoticeEntity;
-import com.atguigu.gulimall.coupon.service.SeckillSkuNoticeService;
-import com.atguigu.common.utils.PageUtils;
-import com.atguigu.common.utils.R;
+import priv.hhh.mall.coupon.entity.SeckillSkuNoticeEntity;
+import priv.hhh.mall.coupon.service.SeckillSkuNoticeService;
+import priv.hhh.common.utils.PageUtils;
+import priv.hhh.common.utils.R;
 
 
 

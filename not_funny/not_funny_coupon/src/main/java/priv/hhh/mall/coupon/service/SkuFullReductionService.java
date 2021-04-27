@@ -1,9 +1,9 @@
 package priv.hhh.mall.coupon.service;
 
-import com.atguigu.common.to.SkuReductionTo;
+import priv.hhh.common.to.SkuReductionTo;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.atguigu.common.utils.PageUtils;
-import com.atguigu.gulimall.coupon.entity.SkuFullReductionEntity;
+import priv.hhh.common.utils.PageUtils;
+import priv.hhh.mall.coupon.entity.SkuFullReductionEntity;
 
 import java.util.Map;
 
