@@ -25,8 +25,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="not_funny_coupon" options="-parameters" />
       <module name="not_funny_member" options="-parameters" />
+      <module name="not_funny_order" options="-parameters" />
       <module name="not_funny_product" options="-parameters" />
+      <module name="not_funny_ware" options="-parameters" />
       <module name="renren-admin" options="-parameters" />
       <module name="renren-common" options="-parameters" />
       <module name="renren-fast" options="-parameters" />
