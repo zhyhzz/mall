@@ -27,9 +27,9 @@ import priv.hhh.mall.coupon.service.CouponService;
 @RestController
 @RequestMapping("coupon/coupon")
 public class CouponController {
+
     @Autowired
     private CouponService couponService;
-
 
     @Value("${coupon.user.name}")
     private String name;
